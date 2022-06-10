@@ -9,9 +9,10 @@ import (
 const envPrefix = "MYAPP"
 
 type ENVConfig struct {
-	ServerPort  int    `split_words:"true"`
-	LoggerDebug bool   `split_words:"true"`
-	CParam      string `envconfig:"SOME_CUSTOM_PARAM"`
+	ServerPort     int    `split_words:"true"`
+	LoggerDebug    bool   `split_words:"true"`
+	CParam         string `envconfig:"SOME_CUSTOM_PARAM"`
+	YamlConfigPath string `split_words:"true"`
 }
 
 func NewEnvConfig() (ENVConfig, error) {

@@ -1,3 +1,4 @@
 export MYAPP_LOGGER_DEBUG=true
-export MYAPP_SERVER_PORT=8080
+export MYAPP_SERVER_PORT=9999
 export MYAPP_SOME_CUSTOM_PARAM=alex
+export MYAPP_YAML_CONFIG_PATH=$(pwd)/config.yaml

@@ -1,0 +1,15 @@
+author: "alex"
+redis:
+  port: 6666
+  host: "localhost"
+db:
+  port: 6666
+  host: "localhost"
+  user: "user"
+  password: "password"
+  dbname: "database-name"
+mtConfigs:
+  - type: MT4
+    leverage: 6
+  - type: MT5
+    leverage: 100
