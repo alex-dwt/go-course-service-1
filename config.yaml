@@ -3,11 +3,11 @@ redis:
   port: 6666
   host: "localhost"
 db:
-  port: 6666
+  port: 5432
   host: "localhost"
-  user: "user"
+  user: "username"
   password: "password"
-  dbname: "database-name"
+  dbname: "dbname"
 mtConfigs:
   - type: MT4
     leverage: 6
