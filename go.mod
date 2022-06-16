@@ -3,6 +3,7 @@ module alex/test
 go 1.18
 
 require (
+	github.com/alex-dwt/go-course-service-2 v1.0.2
 	github.com/go-playground/validator/v10 v10.11.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/spf13/viper v1.12.0

@@ -19,7 +19,7 @@ type Server struct {
 
 func New(port int, logger *zap.Logger, isDebug bool) *Server {
 	mux := http.NewServeMux()
-	mux.HandleFunc("/get-example", handler.GetExampleRoute)
+	mux.HandleFunc("/get-example", handler.GetExampleRouteFunc(logger))
 	mux.HandleFunc("/post-example", handler.PostExampleRoute)
 
 	if isDebug {
